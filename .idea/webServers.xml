@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8312fff2-46a9-4dcb-bfb5-fd5f0cac1c90" name="titan2" url="http://116.228.66.178">
+        <fileTransfer host="116.228.66.178" port="12186" accessType="SFTP" password="dfd3dfcbdfc5dffcdfe6dfc4dffddf93dfe7dfd0dfe6dfdadf9bdf9cdf8b" username="xiaoi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

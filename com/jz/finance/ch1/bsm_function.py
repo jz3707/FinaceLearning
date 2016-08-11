@@ -3,6 +3,7 @@
 
 # 看涨期权定价BSN
 
+
 def cal_bsm_value(S0, K, T, r, sigma):
     """
     C(St, K, t, T, r, sigma) = StN(d1) - e^(-r(T-t))KN(d2)
@@ -29,6 +30,7 @@ def cal_bsm_value(S0, K, T, r, sigma):
     value = (S0 * stats.norm.cdf(d1, 0.0, 1.0)) - K * exp(-r*T) * stats.norm.cdf(d2, 0.0, 1.0)
 
     return value
+
 
 def cal_bsm_vega(S0, K, T, r, sigma):
     """
