@@ -22,17 +22,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bsm_function.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bsm_function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/jz/finance/ch1/bsm_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09389672">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.ipynb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.ipynb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/jz/finance/ch1/test.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -57,9 +57,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/com/jz/finance/ch1/ch1_test.ipynb.py" />
-        <option value="$PROJECT_DIR$/com/jz/finance/ch1/test.ipynb" />
         <option value="&lt;8312fff2-46a9-4dcb-bfb5-fd5f0cac1c90&gt;/opt/jz/dl/keras/RS/CF1.py" />
         <option value="$PROJECT_DIR$/com/jz/finance/ch1/bsm_function.py" />
+        <option value="$PROJECT_DIR$/com/jz/finance/ch1/test.ipynb" />
       </list>
     </option>
   </component>
@@ -427,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/jz/finance/ch1/bsm_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09389672">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -436,7 +436,7 @@
     <entry file="file://$PROJECT_DIR$/com/jz/finance/ch1/test.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="2" />
         </state>
       </provider>
     </entry>

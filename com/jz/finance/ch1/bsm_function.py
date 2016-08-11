@@ -49,7 +49,7 @@ def cal_bsm_vega(S0, K, T, r, sigma):
     :param sigma: 期权的波动率
     :return: vega value
     """
-    from math import log, sqrt, exp
+    from math import log, sqrt
     from scipy import stats
 
     S0 = float(S0)
