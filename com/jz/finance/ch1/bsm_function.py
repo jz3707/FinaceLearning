@@ -23,8 +23,8 @@ def cal_bsm_value(S0, K, T, r, sigma):
 
     S0 = float(S0)
     # 从0时刻开始，所以T-t=T
-    d1 = (log(S0 / K) + (r + sigma ** 2) * T) / (sigma * sqrt(T))
-    d2 = (log(S0 / K) + (r - sigma ** 2) * T) / (sigma * sqrt(T))
+    d1 = (log(S0 / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * sqrt(T))
+    d2 = (log(S0 / K) + (r - 0.5 * sigma ** 2) * T) / (sigma * sqrt(T))
 
     # cdf : cumulative distribution function, 累计分布函数, μ=0.0，σ=1.0，即标准正太分布
     value = (S0 * stats.norm.cdf(d1, 0.0, 1.0)) - K * exp(-r*T) * stats.norm.cdf(d2, 0.0, 1.0)
@@ -52,12 +52,12 @@ def cal_bsm_vega(S0, K, T, r, sigma):
     from math import log, sqrt
     from scipy import stats
 
-    S0 = float(S0)
+    S = float(S0)
     # 从0时刻开始，所以T-t=T
-    d1 = (log(S0 / K) + (r + sigma ** 2) * T) / (sigma * sqrt(T))
+    d1 = (log(S / K) + (r + sigma ** 2) * T) / (sigma * sqrt(T))
 
     # cdf : probability distribution function, 密度分布函数, μ=0.0，σ=1.0，即标准正太分布
-    value = (S0 * stats.norm.pdf(d1, 0.0, 1.0)) * sqrt(T)
+    value = (S * stats.norm.pdf(d1, 0.0, 1.0)) * sqrt(T)
 
     return value
 
@@ -86,6 +86,46 @@ def cal_bsm_imp_vol(S0, K, T, r, C0, sigma_est, it=100):
                 / cal_bsm_vega(S0, K, T, r, sigma_est)
 
     return sigma_est
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
