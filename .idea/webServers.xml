@@ -9,6 +9,20 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="3b1f6a1e-58ae-460b-9fb2-fc1edc54d4cb" name="t5" url="http://122.226.240.149">
+        <fileTransfer host="122.226.240.149" port="12598" accessType="SFTP" password="dfd9dfc2dfc2dfdbdfc0dfdbdf99df93df92" username="hadoop">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="65fc9153-ba1c-446c-8e68-bd8e4e51098e" name="t2" url="http://122.226.240.146">
+        <fileTransfer host="122.226.240.146" port="12598" accessType="SFTP" password="dfd9dfc2dfc2dfdbdfc0dfdbdf99df93df92" username="hadoop">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

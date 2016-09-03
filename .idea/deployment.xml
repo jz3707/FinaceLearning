@@ -2,6 +2,20 @@
 <project version="4">
   <component name="PublishConfigData" serverName="titan2">
     <serverData>
+      <paths name="t2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/xiaoi/jz/ipython/finance/dxlibrary" local="$PROJECT_DIR$" web="/opt/xiaoi/jz/ipython/finance/dxlibrary" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="t5">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/opt/xiaoi/jz/ipython/finance/dxlibrary" local="$PROJECT_DIR$" web="/opt/xiaoi/jz/ipython/finance/dxlibrary" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="titan2">
         <serverdata>
           <mappings>
