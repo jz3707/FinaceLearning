@@ -19,6 +19,8 @@
           <option value="unittest.TestCase" />
           <option value="unittest.case.TestCase" />
           <option value="com.jz.finance.ch1.MonteCarlo._DictWrapper" />
+          <option value="com.jz.thinkbayes.thinkbayes2._DictWrapper" />
+          <option value="object" />
         </list>
       </option>
     </inspection_tool>
